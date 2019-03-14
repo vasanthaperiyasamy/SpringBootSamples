@@ -1,0 +1,5 @@
+package com.hibernate.validator;
+
+public class Car {
+
+}

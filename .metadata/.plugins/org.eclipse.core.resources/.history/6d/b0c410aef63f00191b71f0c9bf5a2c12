@@ -1,0 +1,25 @@
+package com.spring.security;
+
+import javax.validation.Validator;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class TestHibernateValidator {
+		
+	private static Validator validator;
+	
+	@BeforeClass
+	public static void setup() {
+		
+	}
+	
+	
+	
+	@Test
+	public testHibernateValidator() {
+		
+		
+	}
+
+}

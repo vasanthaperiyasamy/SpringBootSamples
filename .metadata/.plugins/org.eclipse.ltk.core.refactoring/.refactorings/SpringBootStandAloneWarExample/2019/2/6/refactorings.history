@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;SpringBootStandAloneWarExample&apos;&#x0D;&#x0A;- Original project: &apos;SpringBootStandAloneWarExample&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     target&#x0D;&#x0A;     pom.xml&#x0D;&#x0A;     pom.xml.releaseBackup&#x0D;&#x0A;     release.properties" description="Delete elements" element1="target" element2="pom.xml" element3="release.properties" element4="pom.xml.releaseBackup" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="4" stamp="1549365858437" subPackages="false" version="1.0"/>
+</session>

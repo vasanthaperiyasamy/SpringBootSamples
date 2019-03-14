@@ -1,0 +1,25 @@
+package com.thread;
+
+import java.util.concurrent.ThreadFactory;
+
+public class MaxPriorityThreadFactory implements ThreadFactory{
+	
+	private int counter=1;
+	private String name;
+	
+	MaxPriorityThreadFactory(String name){
+		
+	}
+
+	@Override
+	public Thread newThread(Runnable r) {
+		// TODO Auto-generated method stub
+		Thread thread=new Thread(r,name+ "" +counter);
+		thread.setPriority(Thread.MAX_PRIORITY);
+		thread.setName(name);
+		return thread;
+	}
+
+	
+	
+}

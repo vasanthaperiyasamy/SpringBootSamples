@@ -1,0 +1,16 @@
+package com.thread;
+
+public class Task implements Runnable{
+	String name;
+	
+	public Task(String name) {
+		this.name=name;
+	}
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println(name));
+	}
+
+}

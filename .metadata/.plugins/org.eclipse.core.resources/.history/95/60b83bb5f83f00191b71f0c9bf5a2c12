@@ -1,0 +1,13 @@
+package com.thread;
+
+public class WorkerThread  implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println(" Current thread .........");
+	}
+	
+	
+
+}

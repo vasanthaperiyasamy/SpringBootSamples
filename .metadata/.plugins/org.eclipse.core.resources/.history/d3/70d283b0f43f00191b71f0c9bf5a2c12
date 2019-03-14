@@ -1,0 +1,11 @@
+package com.spring.security;
+
+public class TestHibernateValidator {
+	
+	
+	@Test
+	public testHibernateValidator() {
+		
+	}
+
+}

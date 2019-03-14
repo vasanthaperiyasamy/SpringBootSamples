@@ -1,0 +1,15 @@
+package com.thread;
+
+public class ThreadFactoryDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MaxPriorityThreadFactory highPriorityThread=new MaxPriorityThreadFactory();
+		
+		Runnable task=new Task("MaxPriorityThread");
+		highPriorityThread.newThread(task);
+		
+		
+	}
+
+}

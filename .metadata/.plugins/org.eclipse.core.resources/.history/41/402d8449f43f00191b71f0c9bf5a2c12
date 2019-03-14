@@ -1,0 +1,16 @@
+package com.hibernate.validator;
+
+public class Car {
+	
+	private String manufacturer;
+	private String licensePlate;
+	private int seatCount;
+	
+	public Car(String manufacturer,String licensePlate,int seatCount) {
+		this.manufacturer=manufacturer;
+		this.licensePlate=licensePlate;
+		this.seatCount=seatCount;
+	}
+	
+
+}

@@ -1,0 +1,10 @@
+package com.hibernate.validator;
+
+public class Car {
+	
+	private String manufacturer;
+	private String licensePlate;
+	
+	
+
+}

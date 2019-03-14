@@ -1,0 +1,28 @@
+package com.spring.security;
+
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class TestHibernateValidator {
+		
+	private static Validator validator;
+	
+	@BeforeClass
+	public static void setup() {
+		ValidatorFactory factory= Validation.buildDefaultValidatorFactory();
+		validator=factory.getValidator();
+	}
+	
+	
+	
+	@Test
+	public testHibernateValidator() {
+		
+		
+	}
+
+}
